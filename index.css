@@ -13,7 +13,7 @@ body {
       color: rgba(255,255,255,.85);
       text-align: center;
   }
-  #container { 
+  #container {
       padding-top: 50px;
   }
   .center1 {
@@ -47,4 +47,21 @@ body {
     width: 90%;
     padding: 2px;
     margin-top: 20px;
+  }
+
+  .two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    font-size: x-large;
+  }
+  .twoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 750px;
+    width: 100%;
+    font-size: x-large;
   }
